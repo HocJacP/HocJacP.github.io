@@ -9,3 +9,13 @@ document.getElementById('leftImage').addEventListener('click', function () {
 document.getElementById('submitButton').addEventListener('click', function() {
     document.title = "YOUR SOUL IS DAMNED";
 });
+
+document.getElementById('nameInput').addEventListener('click', function() {
+    nameInput.value = null;
+    nameInput.style.color = 'black';
+});
+
+document.getElementById('desc').addEventListener('click', function() {
+    desc.innerHTML = null;
+    desc.style.color = 'black';
+});
