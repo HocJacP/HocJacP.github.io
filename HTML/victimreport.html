@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>Jesse Romero Victim Report</title>
+<link rel="stylesheet" href="../CSS/stylesheetform.css">
+
+<head>
+    <div class="titleText">
+        <h1 id="mainTitle">Victim Report</h1>
+        <h3 id="mainSub">
+            Have you fallen victim?<br>
+            File your report here.
+        </h3>
+    </div>
+</head>
+
+<body>
+    <div class="formHeader">
+        <h3>Please fill out the following info.</h3>
+        <p>"*" indicates a required field</p>
+        <div class="forms">
+            <form>
+                <label for nameInput>Name(first and last)*:</label><br>
+                <input type="text" id="nameInput" name="nameInput"><br>
+                <label for slider>Rate the severity of your encounter*:</label><br>
+                <label>0</label><input type="range" id="slider" name="slider" min="0" max="10"><label>10</label><br>
+                <label for description>Describe your encounter in as much detail as possible*:</label><br>
+                <textarea id="desc" name="desc"></textarea><br>
+                <input type="submit" id="submitButton" name="submitButton">
+            </form>
+        </div>
+    </div>
+    <img src="../IMAGES/jesse.png" id="rightImage">
+    <img src="../IMAGES/Jesse.jfif" id="leftImage">
+    <a href="..\index.html" id="homeButton">Back to home</a>
+</body>
+<script src="../JS/formscript.js"></script>
+
+</html>
